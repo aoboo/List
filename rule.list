@@ -1,3 +1,4 @@
+DOMAIN-KEYWORD,emby,Emby
 DOMAIN-SUFFIX,themoviedb.org,高倍节点
 DOMAIN-SUFFIX,javdb524.com,狮城节点
 DOMAIN-SUFFIX,javdb.com,狮城节点
@@ -8,26 +9,23 @@ DOMAIN-SUFFIX,stream4.misakaf.org,Emby ACA
 DOMAIN-SUFFIX,stream5.misakaf.org,Emby ACA
 DOMAIN-SUFFIX,789.123456.al,Emby ACA
 DOMAIN-SUFFIX,emby.aca.best,Emby ACA
-DOMAIN-KEYWORD,emby,Emby
+DOMAIN-SUFFIX, porn.aca.best,Emby ACA
 DOMAIN-SUFFIX, cf2.jmsuper.com,Emby
+DOMAIN-SUFFIX, cdn.misakaf.org,Emby
+DOMAIN-SUFFIX, pornemby.com,Pemby
+IP-CIDR, 65.75.221.22/24,Pemby
 IP-CIDR, 178.175.129.252/32,EHentai
 IP-CIDR, 178.175.128.254/32,EHentai
 IP-CIDR, 172.67.2.238/32,EHentai
 IP-CIDR, 123.88.148.6/32,EHentai
-DOMAIN-SUFFIX, 789.123456.al,Emby ACA
 DOMAIN-SUFFIX, themoviedb.org,高倍节点
-DOMAIN-SUFFIX, porn.aca.best,Emby ACA
-DOMAIN-SUFFIX, emby.aca.best,Emby ACA
 DOMAIN-KEYWORD, weather.com,日本节点
 DOMAIN-SUFFIX, cf2.jmsooo.com,狮城节点
 DOMAIN-SUFFIX, anime1.me,狮城节点
-DOMAIN-SUFFIX, pornemby.com,Pemby
 DOMAIN-SUFFIX, lgthinq.com,direct
 DOMAIN-SUFFIX, openai.com,美国节点
 DOMAIN-SUFFIX, hath.network,EHentai
-DOMAIN-SUFFIX, cdn.misakaf.org,Emby
 DOMAIN-SUFFIX, mypikpak.com,direct
-IP-CIDR, 65.75.221.22/24,Pemby
 DOMAIN-SUFFIX, edge-hls.doppiocdn.org,reject
 DOMAIN-SUFFIX, javdb.com,狮城节点
 DOMAIN-SUFFIX, jmsiptv.52sf.ga,direct
