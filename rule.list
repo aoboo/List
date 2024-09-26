@@ -17,19 +17,20 @@ IP-CIDR, 178.175.129.252/32,EHentai
 IP-CIDR, 178.175.128.254/32,EHentai
 IP-CIDR, 172.67.2.238/32,EHentai
 IP-CIDR, 123.88.148.6/32,EHentai
+DOMAIN-SUFFIX, ehgt.org,EHentai
+DOMAIN-SUFFIX, hath.network,EHentai
+DOMAIN-SUFFIX, exhentai.org,EHentai
+DOMAIN-SUFFIX, e-hentai.org,EHentai
 DOMAIN-SUFFIX, themoviedb.org,高倍节点
 DOMAIN-KEYWORD, weather.com,日本节点
 DOMAIN-SUFFIX, cf2.jmsooo.com,狮城节点
 DOMAIN-SUFFIX, anime1.me,狮城节点
 DOMAIN-SUFFIX, lgthinq.com,direct
 DOMAIN-SUFFIX, openai.com,美国节点
-DOMAIN-SUFFIX, hath.network,EHentai
 DOMAIN-SUFFIX, mypikpak.com,direct
 DOMAIN-SUFFIX, edge-hls.doppiocdn.org,reject
 DOMAIN-SUFFIX, javdb.com,狮城节点
 DOMAIN-SUFFIX, jmsiptv.52sf.ga,direct
 DOMAIN-SUFFIX, edge-node-de.123emby.quest,direct
-DOMAIN-SUFFIX, ehgt.org,EHentai
 DOMAIN-SUFFIX, hanime1.me,狮城节点
-DOMAIN-SUFFIX, exhentai.org,EHentai
-DOMAIN-SUFFIX, e-hentai.org,EHentai
+
