@@ -18,7 +18,7 @@ DOMAIN-SUFFIX, 789.123456.al,Emby ACA
 DOMAIN-SUFFIX, themoviedb.org,高倍节点
 DOMAIN-SUFFIX, porn.aca.best,Emby ACA
 DOMAIN-SUFFIX, emby.aca.best,Emby ACA
-DOMAIN-SUFFIX-keyword, weather.com,日本节点
+DOMAIN-KEYWORD, weather.com,日本节点
 DOMAIN-SUFFIX, cf2.jmsooo.com,狮城节点
 DOMAIN-SUFFIX, anime1.me,狮城节点
 DOMAIN-SUFFIX, pornemby.com,Pemby
