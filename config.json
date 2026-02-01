@@ -28,7 +28,14 @@
                 },
                 "server": "dns.google",
                 "server_port": 443
-            }
+            },
+			{
+				"tag": "fakeip", 
+				"type": "fakeip", 
+				"inet4_range": "198.18.0.0/15", 
+				"inet6_range": "fc00::/18"
+			}
+
         ],
         "rules": [
             {
@@ -39,6 +46,15 @@
                 "clash_mode": "global",
                 "server": "googledns"
             },
+			{
+				"rule_set": "geosite-fakeipfilter", 
+				"server": "local"
+			},
+            {
+				"query_type": ["A", "AAAA"], 
+				"server": "fakeip", 
+				"rewrite_ttl": 1
+			},
             {
                 "rule_set": "geosite-cn",
                 "server": "alidns"
@@ -62,6 +78,7 @@
     {"tag": "🪟 Microsoft", "type": "selector", "outbounds": ["🇯🇵 日本自动", "🇸🇬 狮城自动", "🇺🇲 美国自动", "🐸 手动选择"]},
     {"tag": "🐬 OneDrive", "type": "selector", "outbounds": ["🇯🇵 日本自动", "🇸🇬 狮城自动", "🇺🇲 美国自动", "🐸 手动选择"]},
     {"tag": "🍏 Apple", "type": "selector", "outbounds": ["🎯 全球直连", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 狮城自动", "🇺🇲 美国自动"]},
+    {"tag": "🎬 Emby", "type": "selector", "outbounds": ["🇯🇵 日本自动", "🇸🇬 狮城自动", "🇺🇲 美国自动", "🐸 手动选择"]},
     {"tag": "🐠 漏网之鱼", "type": "selector", "outbounds": ["🚀 默认代理", "🎯 全球直连"]},
     {"tag": "🇭🇰 香港自动", "type": "urltest", "outbounds": []},
     {"tag": "🇯🇵 日本自动", "type": "urltest", "outbounds": []},
@@ -80,6 +97,7 @@
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
+	  {"domain_keyword": ["jmsuper.com", "emby.wtf", "term.wtf"], "outbound" :"🎬 Emby"},
       {"rule_set": "geosite-ai", "outbound": "🧠 AI"},
       {"rule_set": "geosite-youtube", "outbound": "📹 YouTube"},
       {"rule_set": "geosite-google", "outbound": "🍀 Google"},
